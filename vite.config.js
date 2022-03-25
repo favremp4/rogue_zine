@@ -7,7 +7,11 @@ module.exports = defineConfig({
       input: {
         main: resolve(__dirname, "./index.html"),
         article: resolve(__dirname, "./article/index.html"),
-        about: resolve(__dirname, "./about/index.html")
+        about: resolve(__dirname, "./about/index.html"),
+        article_1: resolve(__dirname, "./article-1/index.html"),
+        article_2: resolve(__dirname, "./article-2/index.html"),
+        article_3: resolve(__dirname, "./article-3/index.html")
+
       }
     }
   }

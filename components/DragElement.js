@@ -1,4 +1,6 @@
 export function DragElement(element) {
+  element.style.position = "absolute";
+  element.style.cursor = "move"
   let pos1 = 0,
     pos2 = 0,
     pos3 = 0,
