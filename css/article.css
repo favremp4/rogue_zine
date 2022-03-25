@@ -1,0 +1,231 @@
+@font-face {
+  font-family: Arial;
+  src: url(font/arial.ttf);
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffff;
+}
+.navigation {
+  visibility: hidden;
+}
+
+a {
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.links {
+  padding: 30px 15px;
+  height: 2rem;
+}
+
+.about {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 500;
+}
+.arch {
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 500;
+}
+.accueil {
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 500;
+}
+.soutien {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 500;
+}
+.abces {
+  font-size: 3rem;
+  font-weight: black;
+  padding-left: 2rem;
+  top: 40%;
+  left: 0;
+  position: fixed;
+  z-index: 500;
+}
+.ia1 {
+  position: fixed;
+  width: 100vw;
+  height: 80vh;
+  z-index: 1;
+}
+.mega {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+  z-index: 9;
+}
+.invisible {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+
+  z-index: 5;
+}
+.chaparticle {
+  z-index: 21;
+}
+.chap {
+  padding: 5rem;
+  margin: 0;
+  background-color: white;
+}
+
+.titrarticle {
+  position: relative;
+
+  top: 50%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  z-index: 11;
+}
+.artitre {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
+.scratchnoir {
+  z-index: 10;
+  position: absolute;
+}
+
+.grille1 {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: auto;
+  grid-template-areas: "p1-image p1-text";
+  background-color: white;
+  z-index: 30;
+}
+.intrarticle {
+  z-index: 31;
+  grid-area: p1-text;
+
+  height: 100%;
+}
+.intro {
+  padding: 0;
+  margin: 0;
+  height: 85%;
+  max-width: 50%;
+}
+.imgintro {
+  width: 10vw;
+  grid-area: p1-image;
+  right: 55%;
+  bottom: 50%;
+  position: absolute;
+}
+
+.grille2 {
+  padding-top: 2rem;
+  z-index: 41;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 100%;
+  grid-template-areas: "p1-image p1-text";
+  background-color: white;
+}
+.smalldroitetxt {
+  z-index: 42;
+  grid-area: p1-text;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.soustitre1 {
+  padding: 0;
+  margin: 0;
+}
+.p1 {
+  padding: 0;
+  margin: 0;
+  width: 60%;
+}
+.imgauche {
+  width: 20vw;
+  grid-area: p1-image;
+  right: 55%;
+  left: 10rem;
+  position: relative;
+}
+.grille3 {
+  padding-top: 2rem;
+  z-index: 51;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 100%;
+  grid-template-areas: "p1-image p1-text";
+  background-color: white;
+}
+.smalldroitetxt2 {
+  z-index: 52;
+  grid-area: p1-text;
+  height: 100%;
+  left: 50px;
+  position: relative;
+}
+.soustitre2 {
+  padding: 0;
+  margin: 0;
+}
+.p2 {
+  padding: 0;
+  margin: 0;
+  width: 60%;
+}
+.imgauche2 {
+  width: 30vw;
+  grid-area: p1-image;
+  left: 20rem;
+  position: relative;
+}
+.grille4 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  z-index: 51;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 100%;
+  grid-template-areas: "p1-image p1-text";
+  background-color: white;
+}
+.smalldroitetxt3 {
+  z-index: 52;
+  grid-area: p1-text;
+  height: 100%;
+}
+.soustitre3 {
+  padding: 0;
+  margin: 0;
+}
+.p3 {
+  width: 60%;
+  padding: 0;
+  margin: 0;
+}
+.imgauche3 {
+  width: 20vw;
+  grid-area: p1-image;
+  right: 55%;
+  position: absolute;
+}
