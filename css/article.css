@@ -131,9 +131,9 @@ a {
   margin: 0;
 }
 .imgintro {
-  height: 25vh;
+  height: 20vh;
   grid-area: p1-image;
-  left: 20%;
+  left: 25%;
   position: relative;
 }
 
@@ -194,15 +194,15 @@ a {
   margin: 0;
 }
 .imgauche2 {
-  width: 25vw;
+  width: 20vw;
   grid-area: p1-image;
-  left: 55%;
+  left: 30%;
   position: relative;
 }
 .grille4 {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  z-index: 51;
+  z-index: 61;
   display: grid;
   grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
@@ -210,7 +210,7 @@ a {
   background-color: white;
 }
 .smalldroitetxt3 {
-  z-index: 52;
+  z-index: 62;
   grid-area: p1-text;
   height: 100%;
   width: 70%;

@@ -5,8 +5,12 @@ import "../css/reset.css";
 /*import "../css/style.css";*/
 import "../css/article.css";
 
-let img = document.querySelector(".draggable");
+let img = document.querySelector(".draggable1");
 DragElement(img);
+let img2 = document.querySelector(".draggable2");
+DragElement(img2);
+
+
 
 
 
