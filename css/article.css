@@ -9,10 +9,8 @@
 body {
   margin: 0;
   padding: 0;
+  width: 90vw;
   background-color: #ffff;
-}
-.navigation {
-  visibility: hidden;
 }
 
 a {
@@ -58,24 +56,25 @@ a {
   left: 0;
   position: fixed;
   z-index: 500;
+  visibility: hidden;
 }
 .ia1 {
   position: fixed;
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
+  height: 80h;
   z-index: 1;
 }
 .mega {
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
 
   z-index: 9;
 }
 .invisible {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 50vh;
 
   z-index: 5;
@@ -84,14 +83,14 @@ a {
   z-index: 21;
 }
 .chap {
-  padding: 5rem;
+  font-size: 1.5rem;
+  padding: 2rem 10rem;
   margin: 0;
   background-color: white;
 }
 
 .titrarticle {
   position: relative;
-
   top: 50%;
   padding: 0;
   margin: 0;
@@ -101,16 +100,21 @@ a {
 .artitre {
   color: rgb(255, 255, 255);
   font-size: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .scratchnoir {
   z-index: 10;
   position: absolute;
+  height: 530px;
+  width: 100%;
+  top: -530px;
 }
 
 .grille1 {
   padding-top: 2rem;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 45% 45%;
   grid-template-rows: auto;
   grid-template-areas: "p1-image p1-text";
   background-color: white;
@@ -119,28 +123,25 @@ a {
 .intrarticle {
   z-index: 31;
   grid-area: p1-text;
-
+  width: 70%;
   height: 100%;
 }
 .intro {
   padding: 0;
   margin: 0;
-  height: 85%;
-  max-width: 50%;
 }
 .imgintro {
-  width: 10vw;
+  height: 25vh;
   grid-area: p1-image;
-  right: 55%;
-  bottom: 50%;
-  position: absolute;
+  left: 20%;
+  position: relative;
 }
 
 .grille2 {
   padding-top: 2rem;
   z-index: 41;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
   grid-template-areas: "p1-image p1-text";
   background-color: white;
@@ -151,6 +152,7 @@ a {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 70%;
 }
 .soustitre1 {
   padding: 0;
@@ -159,7 +161,6 @@ a {
 .p1 {
   padding: 0;
   margin: 0;
-  width: 60%;
 }
 .imgauche {
   width: 20vw;
@@ -172,7 +173,7 @@ a {
   padding-top: 2rem;
   z-index: 51;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
   grid-template-areas: "p1-image p1-text";
   background-color: white;
@@ -180,9 +181,9 @@ a {
 .smalldroitetxt2 {
   z-index: 52;
   grid-area: p1-text;
-  height: 100%;
-  left: 50px;
   position: relative;
+  left: 20%;
+  width: 70%;
 }
 .soustitre2 {
   padding: 0;
@@ -191,12 +192,11 @@ a {
 .p2 {
   padding: 0;
   margin: 0;
-  width: 60%;
 }
 .imgauche2 {
-  width: 30vw;
+  width: 25vw;
   grid-area: p1-image;
-  left: 20rem;
+  left: 55%;
   position: relative;
 }
 .grille4 {
@@ -204,7 +204,7 @@ a {
   padding-bottom: 1rem;
   z-index: 51;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
   grid-template-areas: "p1-image p1-text";
   background-color: white;
@@ -213,13 +213,13 @@ a {
   z-index: 52;
   grid-area: p1-text;
   height: 100%;
+  width: 70%;
 }
 .soustitre3 {
   padding: 0;
   margin: 0;
 }
 .p3 {
-  width: 60%;
   padding: 0;
   margin: 0;
 }
@@ -228,4 +228,10 @@ a {
   grid-area: p1-image;
   right: 55%;
   position: absolute;
+}
+
+@media all and (max-width: 1200px) {
+  .body {
+    word-break: break-all;
+  }
 }
