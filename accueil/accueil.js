@@ -65,7 +65,7 @@ window.addEventListener('scroll', () => {
         // 
     }
     else{
-      article.style.position = 'static';
+      adeux.style.position = 'static';
     }
 });
 
@@ -77,7 +77,7 @@ window.addEventListener('scroll', () => {
         // 
     }
     else{
-      article.style.position = 'static';
+      atrois.style.position = 'static';
     }
 });
 
