@@ -64,6 +64,22 @@ a {
   position: fixed;
   width: 100%;
   height: 80h;
+
+  z-index: 1;
+}
+.ia2 {
+  position: fixed;
+  width: 100%;
+  height: 80h;
+  bottom: 50%;
+
+  z-index: 1;
+}
+.ia3 {
+  position: fixed;
+  width: 100%;
+  height: 80h;
+  top: -15%;
   z-index: 1;
 }
 .mega {
@@ -120,8 +136,10 @@ p {
   font-weight: 400;
   padding-left: 5rem;
   padding-right: 5rem;
-  width: 70%;
+  width: 80%;
+  left: 5%;
   line-height: 4rem;
+  position: relative;
 }
 .scratchnoir {
   z-index: 10;
@@ -149,11 +167,12 @@ p {
 .intro {
   padding: 0;
   margin: 0;
+  position: relative;
 }
-.imgintro {
-  height: 30vh;
+.imgintroa1 {
+  height: 90vh;
   grid-area: p1-image;
-  left: 15%;
+  left: 40%;
   position: relative;
 }
 
@@ -201,22 +220,101 @@ p {
 .smalldroitetxt2 {
   z-index: 52;
   grid-area: p1-text;
-  position: relative;
-  left: 20%;
+
   width: 70%;
 }
 .soustitre2 {
   padding: 0;
   margin: 0;
 }
-.p2 {
+.p2a1 {
   padding: 0;
   margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p5a1 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p7a1 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p9a1 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p2a2 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p4a2 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p6a2 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p9a2 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p11a2 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p2a3 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p4a3 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p7a3 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.p11a3 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 10%;
+}
+.imgauche1 {
+  width: 60vw;
+  grid-area: p1-image;
+  left: 40%;
+  position: relative;
 }
 .imgauche2 {
   width: 30vw;
   grid-area: p1-image;
-  left: 20%;
+  left: 90%;
   position: relative;
 }
 .grille4 {
@@ -260,9 +358,9 @@ p {
   background-color: white;
 }
 .img1article2 {
-  height: 30vh;
+  height: 40vh;
   grid-area: p1-image;
-  left: 30%;
+  left: 15%;
   position: relative;
 }
 .smalldroitetxt2art1 {
@@ -275,14 +373,13 @@ p {
 .smalldroitetxtart1 {
   z-index: 52;
   grid-area: p1-text;
-  position: relative;
-  left: 20%;
+
   width: 70%;
 }
 .img2article2 {
-  height: 20vh;
+  height: 40vh;
   grid-area: p1-image;
-  left: 25%;
+  left: 15%;
   position: relative;
 }
 .img3article2 {
