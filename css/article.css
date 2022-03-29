@@ -172,7 +172,7 @@ p {
 .imgintroa1 {
   height: 90vh;
   grid-area: p1-image;
-  left: 40%;
+  left: 30%;
   position: relative;
 }
 
@@ -308,13 +308,13 @@ p {
 .imgauche1 {
   width: 60vw;
   grid-area: p1-image;
-  left: 40%;
+  left: 10rem;
   position: relative;
 }
 .imgauche2 {
   width: 30vw;
   grid-area: p1-image;
-  left: 90%;
+  left: 50%;
   position: relative;
 }
 .grille4 {
