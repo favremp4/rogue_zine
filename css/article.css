@@ -15,12 +15,13 @@ body {
 
 a {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 2rem;
   text-decoration: none;
   color: black;
 }
 .links {
   padding: 30px 15px;
+  padding-bottom: 60px;
   height: 2rem;
 }
 
@@ -134,9 +135,9 @@ p {
   margin: 0;
 }
 .imgintro {
-  height: 20vh;
+  height: 30vh;
   grid-area: p1-image;
-  left: 25%;
+  left: 15%;
   position: relative;
 }
 
@@ -197,9 +198,9 @@ p {
   margin: 0;
 }
 .imgauche2 {
-  width: 20vw;
+  width: 30vw;
   grid-area: p1-image;
-  left: 30%;
+  left: 20%;
   position: relative;
 }
 .grille4 {
