@@ -22,7 +22,7 @@ DragElement(img2);
 
 // CONST
 
-const aun = document.querySelector(".a1");
+const aun = document.querySelector('.a1');
 const adeux = document.querySelector('.a2');
 const atrois = document.querySelector('.a3');
 const aquatre = document.querySelector('.a4');
