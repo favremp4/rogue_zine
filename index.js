@@ -2,6 +2,7 @@ import TextScramble from "./components/TextScramble";
 
 import "./css/reset.css";
 import "./css/style.css";
+import "./css/accueil.css";
 
 const init = function () {
   const phrases = [
