@@ -111,7 +111,6 @@ p {
 }
 .chaparticle {
   z-index: 21;
-
   position: relative;
   grid-area: p1-text;
 }
