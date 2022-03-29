@@ -85,6 +85,7 @@ p {
 }
 .chaparticle {
   z-index: 21;
+  position: relative;
 }
 .chap {
   font-size: 1.5rem;
