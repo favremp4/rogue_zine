@@ -69,8 +69,11 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
-
+  font-size: 22px;
   z-index: 9;
+}
+p {
+  line-height: 30px;
 }
 .invisible {
   position: relative;
@@ -228,6 +231,56 @@ a {
   grid-area: p1-image;
   right: 55%;
   position: absolute;
+}
+.grille5 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  z-index: 71;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 100%;
+  grid-template-areas: "p1-image p1-text";
+  background-color: white;
+}
+.img1article1 {
+  height: 20vh;
+  grid-area: p1-image;
+  left: 35%;
+  position: relative;
+}
+.smalldroitetxt2art1 {
+  z-index: 52;
+  grid-area: p1-text;
+  position: relative;
+
+  width: 70%;
+}
+.smalldroitetxtart1 {
+  z-index: 52;
+  grid-area: p1-text;
+  position: relative;
+  left: 20%;
+  width: 70%;
+}
+.img2article1 {
+  height: 20vh;
+  grid-area: p1-image;
+  left: 25%;
+  position: relative;
+}
+.img3article1 {
+  width: 70vh;
+  grid-area: p1-image;
+  left: 5%;
+  top: 70%;
+  position: relative;
+}
+.img4article1 {
+  width: 70vh;
+  grid-area: p1-image;
+  left: 5%;
+  bottom: 10%;
+  position: relative;
 }
 
 @media all and (max-width: 1200px) {
