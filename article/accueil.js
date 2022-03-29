@@ -2,6 +2,11 @@ import { sampleSize } from "lodash";
 import { DragElement } from "../components/DragElement";
 import "../css/reset.css";
 import "../css/style.css";
+import "../css/accueil.css";
+
+
+
+
 
 const wrapParagraphWords = function () {
   const paragraph = document.querySelectorAll("p");
