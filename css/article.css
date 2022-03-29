@@ -169,12 +169,6 @@ p {
   margin: 0;
   position: relative;
 }
-.imgintroa1 {
-  height: 90vh;
-  grid-area: p1-image;
-  left: 30%;
-  position: relative;
-}
 
 .grille2 {
   padding-top: 2rem;
@@ -201,13 +195,7 @@ p {
   padding: 0;
   margin: 0;
 }
-.imgauche {
-  width: 20vw;
-  grid-area: p1-image;
-  right: 55%;
-  left: 10rem;
-  position: relative;
-}
+
 .grille3 {
   padding-top: 2rem;
   z-index: 51;
@@ -305,6 +293,26 @@ p {
   position: relative;
   left: 10%;
 }
+.imgintroa1 {
+  height: 80vh;
+  grid-area: p1-image;
+  left: 30%;
+  position: relative;
+}
+.imgintroa3 {
+  height: 80vh;
+  grid-area: p1-image;
+  left: 30%;
+  position: relative;
+}
+
+.imgauche {
+  width: 20vw;
+  grid-area: p1-image;
+  right: 55%;
+  left: 10rem;
+  position: relative;
+}
 .imgauche1 {
   width: 60vw;
   grid-area: p1-image;
@@ -312,9 +320,15 @@ p {
   position: relative;
 }
 .imgauche2 {
-  width: 30vw;
+  height: 92vh;
   grid-area: p1-image;
-  left: 50%;
+  left: 30%;
+  position: relative;
+}
+.imgauche3 {
+  width: 32vw;
+  grid-area: p1-image;
+  left: 30%;
   position: relative;
 }
 .grille4 {
@@ -341,12 +355,7 @@ p {
   padding: 0;
   margin: 0;
 }
-.imgauche3 {
-  width: 20vw;
-  grid-area: p1-image;
-  right: 55%;
-  position: absolute;
-}
+
 .grille5 {
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -358,7 +367,7 @@ p {
   background-color: white;
 }
 .img1article2 {
-  height: 40vh;
+  height: 80vh;
   grid-area: p1-image;
   left: 15%;
   position: relative;
@@ -377,23 +386,41 @@ p {
   width: 70%;
 }
 .img2article2 {
-  height: 40vh;
+  height: 100vh;
   grid-area: p1-image;
   left: 15%;
   position: relative;
 }
 .img3article2 {
-  width: 70vh;
+  width: 100vh;
   grid-area: p1-image;
-  left: 5%;
+  left: 30%;
   top: 70%;
   position: relative;
 }
 .img4article2 {
-  width: 70vh;
+  width: 100vh;
   grid-area: p1-image;
-  left: 5%;
+  left: 35%;
   bottom: 10%;
+  position: relative;
+}
+.img1article3 {
+  width: 100vh;
+  grid-area: p1-image;
+  left: 20%;
+  position: relative;
+}
+.img3article3 {
+  width: 100vh;
+  grid-area: p1-image;
+  left: 20%;
+  position: relative;
+}
+.img4article3 {
+  width: 100vh;
+  grid-area: p1-image;
+  left: 20%;
   position: relative;
 }
 
