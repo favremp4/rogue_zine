@@ -1,9 +1,9 @@
-import { DragElement } from "../components/DragElement"
+// import { DragElement } from "../components/DragElement"
 
 
-import "../css/reset.css";
-/*import "../css/style.css";*/
-import "../css/article4.css";
+// import "../css/reset.css";
+// /*import "../css/style.css";*/
+// import "../css/article4.css";
 
 
 // IMAGES DRAG

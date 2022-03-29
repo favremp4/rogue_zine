@@ -29,6 +29,10 @@ const bande = document.querySelector('.bande');
 
 // console.log(window.scrollY);
 
+
+
+// ABCES VSIBLE
+
 window.addEventListener('scroll', () => {
   if(window.scrollY>= 1560) {
     abces.style.visibility = "hidden";
@@ -37,6 +41,8 @@ window.addEventListener('scroll', () => {
   }
 })
 
+
+// -------------------------------
 
 // 
 window.addEventListener('scroll', () => {
