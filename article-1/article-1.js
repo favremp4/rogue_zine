@@ -16,6 +16,7 @@ DragElement(img4);
 
 
 
+
 const titrarticle = document.querySelector('.titrarticle');
 const chaparticle = document.querySelector('.chaparticle');
 const intrarticle = document.querySelector('.intrarticle');
