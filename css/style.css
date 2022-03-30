@@ -80,6 +80,13 @@ p span {
   z-index: 2;
 }
 
+.nav {
+  position: absolute;
+  top: 40%;
+  color: #ffffff;
+  background-color: aqua;
+}
+
 @media all and (max-width: 1200px) {
   .scrambled {
     word-break: break-all;

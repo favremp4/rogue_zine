@@ -54,6 +54,26 @@ a {
 
 /* divs */
 
+.compl {
+  position: absolute;
+  width: 70vw;
+  /* height: 1px; */
+  left: 15vw;
+  top: 18vh;
+  /* background-color: aqua; */
+}
+
+.compl1 {
+  z-index: 502;
+  height: fit-content;
+}
+.compl2 {
+  z-index: 512;
+}
+.compl3 {
+  z-index: 522;
+}
+
 .fondblanc {
   position: absolute;
   width: 100vw;
@@ -200,6 +220,15 @@ a {
 /* background-color: azure; */
 /* } */
 
+.ima {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  height: 100%;
+  width: auto;
+  visibility: hidden;
+}
+
 .i1 {
   position: absolute;
   bottom: 0px;
@@ -308,9 +337,14 @@ a {
 
 .tia {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
+  width: 70%;
+  top: 3vh;
+  left: 15vw;
+  /* background-color: aqua; */
+  position: absolute;
 }
 
 .tia1 {
@@ -326,6 +360,38 @@ a {
 .tia3 {
   z-index: 530;
   color: #000000;
+}
+
+/* TEXTES */
+
+.descr {
+  font-size: 1rem;
+  position: relative;
+  /* background-color: aqua; */
+}
+
+.d1 {
+  color: #000000;
+  /* left: 15vw; */
+  /* top: 18vh; */
+  width: 38vw;
+}
+
+.d2 {
+  color: #ffffff;
+  /* left: 15vw; */
+  /* top: 18vh; */
+  width: 36vw;
+}
+
+.d3 {
+  color: #000000;
+  /* left: 15vw; */
+  /* top: 18vh; */
+  width: 40vw;
+}
+
+.lia {
 }
 
 /* ____________________________ */
