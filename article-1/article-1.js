@@ -7,16 +7,13 @@ import "../css/article.css";
 
 
 
-
-
-
-
 const abces = document.querySelector('.abces');
+const links = document.querySelector('.a');
 
 
 //---------------------------------------------------
 
-const abcesOffsetTop = abces.offsetTop;
+
 
 window.addEventListener('scroll', () => {
     if(window.scrollY<= 800) {                
@@ -26,6 +23,15 @@ window.addEventListener('scroll', () => {
         abces.style.visibility='visible';            
     }
 });
+window.addEventListener('scroll', () => {
+    if(window.scrollY<= 800) {                
+        links.style.color="white"; 
+    }
+    else{
+        links.style.visibility="black";            
+    }
+});
+   
 let img = document.querySelector(".draggable1");
 DragElement(img);
 let img2 = document.querySelector(".draggable2");
