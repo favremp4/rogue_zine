@@ -406,10 +406,10 @@ p {
   position: relative;
 }
 .img4article2 {
-  width: 100vh;
+  width: 90vh;
   grid-area: p1-image;
   left: 35%;
-  bottom: 10%;
+
   position: relative;
 }
 .img1article3 {
