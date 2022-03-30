@@ -106,16 +106,18 @@ p {
   grid-template-rows: auto;
   grid-template-areas: "p1-image p1-text";
   background-color: white;
-  z-index: 20;
+  /* z-index: 20; */
 }
 .chaparticle {
-  z-index: 21;
+  /* z-index: 21; */
+  /* z-index: 21; */
   position: relative;
   grid-area: p1-text;
 }
 .chap {
   font-size: 1.5rem;
-  z-index: 22;
+  /* z-index: 22; */
+  /* z-index: 22; */
   margin: 0;
   background-color: white;
 }
@@ -126,7 +128,8 @@ p {
   padding: 0;
   margin: 0;
   background-color: rgb(0, 0, 0);
-  z-index: 11;
+  /* z-index: 11; */
+  /* z-index: 11; */
 }
 .artitre {
   color: rgb(255, 255, 255);
@@ -148,7 +151,8 @@ p {
 }
 .ensemblegrille1 {
   height: 100%;
-  z-index: 29;
+  /* z-index: 29; */
+  /* z-index: 29; */
   position: relative;
 }
 .grille1 {
@@ -158,17 +162,19 @@ p {
   grid-template-rows: auto;
   grid-template-areas: "p1-image p1-text";
   background-color: white;
-  z-index: 30;
+  /* z-index: 30; */
+  /* z-index: 30; */
 }
 .imgintroa1 {
   height: 80vh;
   grid-area: p1-image;
   left: 30%;
   position: relative;
-  z-index: 31;
+  /* z-index: 31; */
+  /* z-index: 100; */
 }
 .intrarticle {
-  z-index: 32;
+  /* z-index: 32; */
   grid-area: p1-text;
   width: 70%;
   height: 100%;
@@ -181,7 +187,8 @@ p {
 
 .grille2 {
   padding-top: 2rem;
-  z-index: 41;
+  /* z-index: 41; */
+  /* z-index: 100; */
   display: grid;
   grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
@@ -189,7 +196,8 @@ p {
   background-color: white;
 }
 .smalldroitetxt {
-  z-index: 42;
+  /* z-index: 42; */
+  /* z-index: 100; */
   grid-area: p1-text;
   padding: 0;
   margin: 0;
@@ -207,7 +215,8 @@ p {
 
 .grille3 {
   padding-top: 2rem;
-  z-index: 51;
+  /* z-index: 51; */
+  z-index: 100;
   display: grid;
   grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
@@ -215,9 +224,8 @@ p {
   background-color: white;
 }
 .smalldroitetxt2 {
-  z-index: 52;
+  /* z-index: 52; */
   grid-area: p1-text;
-
   width: 70%;
 }
 .soustitre2 {
@@ -338,7 +346,7 @@ p {
 .grille4 {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  z-index: 61;
+  /* z-index: 61; */
   display: grid;
   grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
@@ -346,7 +354,7 @@ p {
   background-color: white;
 }
 .smalldroitetxt3 {
-  z-index: 62;
+  /* z-index: 62; */
   grid-area: p1-text;
   height: 100%;
   width: 70%;
@@ -363,7 +371,7 @@ p {
 .grille5 {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  z-index: 71;
+  /* z-index: 71; */
   display: grid;
   grid-template-columns: 45% 45%;
   grid-template-rows: 100%;
@@ -377,16 +385,14 @@ p {
   position: relative;
 }
 .smalldroitetxt2art1 {
-  z-index: 52;
+  /* z-index: 52; */
   grid-area: p1-text;
   position: relative;
-
   width: 70%;
 }
 .smalldroitetxtart1 {
-  z-index: 52;
+  /* z-index: 52; */
   grid-area: p1-text;
-
   width: 70%;
 }
 .img2article2 {
@@ -426,6 +432,10 @@ p {
   grid-area: p1-image;
   left: 20%;
   position: relative;
+}
+
+.draggable1 {
+  z-index: 200;
 }
 
 @media all and (max-width: 1200px) {
