@@ -15,11 +15,24 @@ body {
 
 a {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+
   padding: 5px;
 }
+.a1 {
+  color: black;
+}
+.a2 {
+  color: rgb(255, 255, 255);
+}
+.a3 {
+  color: rgb(0, 0, 0);
+}
+.a4 {
+  color: rgb(255, 255, 255);
+}
+
 .links {
   padding: 30px 15px;
   padding-bottom: 60px;
@@ -309,7 +322,7 @@ p {
 }
 
 .imgintroa3 {
-  height: 80vh;
+  height: 50vh;
   grid-area: p1-image;
   left: 30%;
   position: relative;

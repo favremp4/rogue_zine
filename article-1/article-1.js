@@ -8,7 +8,8 @@ import "../css/article.css";
 
 
 const abces = document.querySelector('.abces');
-const links = document.querySelector('.a');
+const links = document.querySelector('.a2');
+const links2 = document.querySelector('.a4');
 
 
 //---------------------------------------------------
@@ -24,11 +25,19 @@ window.addEventListener('scroll', () => {
     }
 });
 window.addEventListener('scroll', () => {
-    if(window.scrollY<= 800) {                
-        links.style.color="white"; 
+    if(window.scrollY> 700) {                
+        links.style.color="black"; 
     }
     else{
-        links.style.visibility="black";            
+        links.style.color="white";            
+    }
+});
+window.addEventListener('scroll', () => {
+    if(window.scrollY> 700) {                
+        links2.style.color="black"; 
+    }
+    else{
+        links2.style.color="white";            
     }
 });
    
